@@ -1,0 +1,23 @@
+.btn {
+    display: inline-block;
+    padding: 10px 33px;
+    margin-right: 16px;
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    vertical-align: top;
+    text-align: center;
+        
+    background-color: #aaaaaa;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.btn:hover {
+    background-color: coral;
+}
