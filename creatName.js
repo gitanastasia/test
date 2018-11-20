@@ -19,7 +19,7 @@ function init() {
     
     //var word = parts1[rand1] + parts2[rand2] + parts3[rand3];
     
-    //Заменили предыдующий код
+    //Replaced the above mentioned code
     var pickRandomPart = function(parts) {
       return parts[Math.floor(Math.random() * parts.length)];  
     };
