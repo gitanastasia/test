@@ -4,10 +4,10 @@
 function init() {
        
     var showButton = document.getElementById('showBtn');
-    showButton.onclick = creatWord;
+    showButton.onclick = creatAbbr;
     
 
- function creatWord() {
+ function creatAbbr() {
     var parts1 = ['c','i','u','c','p','a','q','s','e','d','i','r','p','r','l'];  
     var parts2 = ['c','i','u','c','p','a','q','s','e','d','i','r','p','r','l'];
     var parts3 = ['c','i','u','c','p','a','q','s','e','d','i','r','p','r','l'];
@@ -27,7 +27,7 @@ function init() {
     var randomWord = pickRandomPart(parts1) + pickRandomPart(parts2) + pickRandomPart(parts3);
     //return randomWord;
     
-    alert("Вот она! => " + randomWord);
+    alert("Here you are! => " + randomWord);
     
   }
 };
