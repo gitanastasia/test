@@ -27,7 +27,7 @@ function init() {
     var randomWord = pickRandomPart(parts1) + pickRandomPart(parts2) + pickRandomPart(parts3);
     //return randomWord;
     
-    alert("Вот оно! => " + randomWord);
+    alert("Вот она! => " + randomWord);
     
   }
 };
